@@ -251,15 +251,11 @@ async def _(event):
                     await event.client.send_message(event.chat_id, f'''
 ●━━━━━━━━●
 ┏━━━━━┓
-- By ↣ @HLLAM
+- By ↣ @S_Y_N
 ┗━━━━━┛
 ┏━━━━━┓
-↣ (@{username})
+  Done↣ (@{username})
 ┗━━━━━┛
-┏━━━━━┓
-- By ↣@H_P_K 
-┗━━━━━┛
-●━━━━━━━━●
 
     ''')
                     break
@@ -273,7 +269,7 @@ async def _(event):
                     if "A wait of" in str(eee):
                         break
                     else:
-                        await fifthon.send_message(event.chat.id, " اجاك متاح !")
+                        await fifthon.send_message(event.chat.id, " تنح جبتلك متاح !")
             else:
                 pass
             trys += 1
@@ -319,15 +315,11 @@ async def _(event):
                         await event.client.send_message(event.chat_id, f'''
 ●━━━━━━━━●
 ┏━━━━━┓
-- By ↣ @HLLAM
+- By ↣ @S_Y_N
 ┗━━━━━┛
 ┏━━━━━┓
-↣ (@{username})
+  Done↣ (@{username})
 ┗━━━━━┛
-┏━━━━━┓
-- By ↣@H_P_K 
-┗━━━━━┛
-●━━━━━━━━●
 
     ''')
                         break
@@ -361,15 +353,11 @@ async def _(event):
                 await event.client.send_message(event.chat_id, f'''
 ●━━━━━━━━●
 ┏━━━━━┓
-- By ↣ @HLLAM
+- By ↣ @S_Y_N
 ┗━━━━━┛
 ┏━━━━━┓
-↣ (@{username})
+  Done↣ (@{username})
 ┗━━━━━┛
-┏━━━━━┓
-- By ↣@H_P_K 
-┗━━━━━┛
-●━━━━━━━━●
 
     ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
